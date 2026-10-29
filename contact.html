@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | NIVARA Interior Design Studio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg nivara-navbar">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                NIVARA
+                <span>SPACES THAT SPEAK</span>
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="spaces.html">
+                            Our Spaces
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="atelier.html">
+                            Design Atelier
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="aesthetic.html">
+                            Find Your Style
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="journal.html">
+                            Journal
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a class="nav-cta" href="#consultation">
+                            Let's Talk
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+
+            <div class="contact-heading">
+                <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+
+                <h1>Let's create something <em>meaningful.</em></h1>
+
+                <p class="contact-intro">
+                    Every beautiful space begins with a conversation.
+                    Tell us about your ideas, and let's bring your vision to life.
+                </p>
+            </div>
+
+            <div class="row align-items-center g-5">
+
+                <!-- Contact Image -->
+                <div class="col-12 col-lg-5">
+                    <div class="contact-image-wrapper">
+                        <img src="images/contact.png"
+                             alt="Warm minimalist interior with natural textures"
+                             class="contact-image">
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-12 col-lg-7">
+                    <form class="contact-form"
+                          action="mailto:hello@nivara.com"
+                          method="post"
+                          enctype="text/plain">
+
+                        <div class="mb-4">
+                            <label for="name" class="form-label">
+                                Your Name
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   id="name"
+                                   name="Name"
+                                   placeholder="Enter your name"
+                                   required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="email" class="form-label">
+                                Email Address
+                            </label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="email"
+                                   name="Email"
+                                   placeholder="Enter your email"
+                                   required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="project" class="form-label">
+                                Project Type
+                            </label>
+
+                            <select class="form-select"
+                                    id="project"
+                                    name="Project Type"
+                                    required>
+                                <option value="">Choose your project</option>
+                                <option value="Living Room">Living Room</option>
+                                <option value="Bedroom">Bedroom</option>
+                                <option value="Kitchen">Kitchen</option>
+                                <option value="Full Home">Full Home</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label">
+                                Tell Us About Your Project
+                            </label>
+
+                            <textarea class="form-control"
+                                      id="message"
+                                      name="Message"
+                                      rows="5"
+                                      placeholder="Share your ideas..."
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-light-custom">
+                            Send Message ↗
+                        </button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="nivara-footer">
+        <div class="container">
+            <p>© 2026 NIVARA Interior Design Studio. Designed with intention.</p>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
